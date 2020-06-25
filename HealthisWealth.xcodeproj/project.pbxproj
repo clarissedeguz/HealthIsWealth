@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		539E0477695B0A218BBAEAB3 /* Pods_HealthisWealthTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573F787E5D50E35527975AE2 /* Pods_HealthisWealthTests.framework */; };
+		621A7DE524106B29006D8F2F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621A7DE424106B29006D8F2F /* LoginViewController.swift */; };
+		621A7DE724106BBE006D8F2F /* Page Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621A7DE624106BBE006D8F2F /* Page Cell.swift */; };
+		621A7DE924106BDA006D8F2F /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621A7DE824106BDA006D8F2F /* Page.swift */; };
+		621A7DEB24106C60006D8F2F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621A7DEA24106C60006D8F2F /* Login.swift */; };
+		621A7DED241071B3006D8F2F /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621A7DEC241071B3006D8F2F /* ProductsViewController.swift */; };
+		621AA99F24057F9900BA89F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621AA99E24057F9900BA89F5 /* AppDelegate.swift */; };
+		621AA9A124057F9900BA89F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621AA9A024057F9900BA89F5 /* SceneDelegate.swift */; };
+		621AA9A324057F9900BA89F5 /* GenerateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621AA9A224057F9900BA89F5 /* GenerateViewController.swift */; };
+		621AA9A624057F9900BA89F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621AA9A424057F9900BA89F5 /* Main.storyboard */; };
+		621AA9A824057F9C00BA89F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621AA9A724057F9C00BA89F5 /* Assets.xcassets */; };
+		621AA9AB24057F9C00BA89F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621AA9A924057F9C00BA89F5 /* LaunchScreen.storyboard */; };
+		621AA9B624057F9C00BA89F5 /* HealthisWealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621AA9B524057F9C00BA89F5 /* HealthisWealthTests.swift */; };
+		621AA9CF240584F100BA89F5 /* Generate Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621AA9CE240584F100BA89F5 /* Generate Cell.swift */; };
+		621AA9D1240585B700BA89F5 /* Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621AA9D0240585B700BA89F5 /* Generate.swift */; };
+		629723D2246CA43B00AB224A /* Pods_HealthisWealth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629723D1246CA43B00AB224A /* Pods_HealthisWealth.framework */; };
+		629723D3246CA4CC00AB224A /* HealthisWealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621AA9C024057F9C00BA89F5 /* HealthisWealthUITests.swift */; };
+		629997922406D66000258FD1 /* buttonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629997912406D66000258FD1 /* buttonCell.swift */; };
+		62E89A5F2405DF3A0021FBB6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E89A5E2405DF3A0021FBB6 /* Extension.swift */; };
+		F4A6E72361C86ADEE28D197B /* Pods_HealthisWealth_HealthisWealthUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FCF67B4273159A9CB04D315 /* Pods_HealthisWealth_HealthisWealthUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		621AA9B224057F9C00BA89F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 621AA99324057F9900BA89F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 621AA99A24057F9900BA89F5;
+			remoteInfo = TableView;
+		};
+		621AA9BD24057F9C00BA89F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 621AA99324057F9900BA89F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 621AA99A24057F9900BA89F5;
+			remoteInfo = TableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B0E784824FAFF46389013C3 /* Pods-HealthisWealth-HealthisWealthUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthisWealth-HealthisWealthUITests.debug.xcconfig"; path = "Target Support Files/Pods-HealthisWealth-HealthisWealthUITests/Pods-HealthisWealth-HealthisWealthUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C9A866168D5E41DB29C2218 /* Pods-HealthisWealthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthisWealthTests.debug.xcconfig"; path = "Target Support Files/Pods-HealthisWealthTests/Pods-HealthisWealthTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C0F7E8F9889C46B9F82515A /* Pods-TableView-TableViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView-TableViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-TableView-TableViewUITests/Pods-TableView-TableViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		391D1303F8A6A5AA61205BD1 /* Pods-5x5Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5x5Tests.release.xcconfig"; path = "Target Support Files/Pods-5x5Tests/Pods-5x5Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3AC16545AD1794F913D677BA /* Pods_HealthisWealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthisWealth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCDAD4418500BC744AD16E7 /* Pods-HealthisWealth-HealthisWealthUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthisWealth-HealthisWealthUITests.release.xcconfig"; path = "Target Support Files/Pods-HealthisWealth-HealthisWealthUITests/Pods-HealthisWealth-HealthisWealthUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4B86269A5DD92E44C0EDE25B /* Pods-5x5-5x5UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5x5-5x5UITests.release.xcconfig"; path = "Target Support Files/Pods-5x5-5x5UITests/Pods-5x5-5x5UITests.release.xcconfig"; sourceTree = "<group>"; };
+		5223673FC2A6E2D264E7AF90 /* Pods-HealthisWealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthisWealth.release.xcconfig"; path = "Target Support Files/Pods-HealthisWealth/Pods-HealthisWealth.release.xcconfig"; sourceTree = "<group>"; };
+		573F787E5D50E35527975AE2 /* Pods_HealthisWealthTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthisWealthTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7A430FB91BE45D8D386ADA /* Pods-5x5Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5x5Tests.debug.xcconfig"; path = "Target Support Files/Pods-5x5Tests/Pods-5x5Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		621A7DE424106B29006D8F2F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		621A7DE624106BBE006D8F2F /* Page Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Page Cell.swift"; sourceTree = "<group>"; };
+		621A7DE824106BDA006D8F2F /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		621A7DEA24106C60006D8F2F /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		621A7DEC241071B3006D8F2F /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		621AA99B24057F9900BA89F5 /* HealthisWealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthisWealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		621AA99E24057F9900BA89F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		621AA9A024057F9900BA89F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		621AA9A224057F9900BA89F5 /* GenerateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateViewController.swift; sourceTree = "<group>"; };
+		621AA9A524057F9900BA89F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		621AA9A724057F9C00BA89F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		621AA9AA24057F9C00BA89F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		621AA9AC24057F9C00BA89F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		621AA9B124057F9C00BA89F5 /* HealthisWealthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthisWealthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		621AA9B524057F9C00BA89F5 /* HealthisWealthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthisWealthTests.swift; sourceTree = "<group>"; };
+		621AA9B724057F9C00BA89F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		621AA9BC24057F9C00BA89F5 /* HealthisWealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthisWealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		621AA9C024057F9C00BA89F5 /* HealthisWealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthisWealthUITests.swift; sourceTree = "<group>"; };
+		621AA9C224057F9C00BA89F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		621AA9CE240584F100BA89F5 /* Generate Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Generate Cell.swift"; sourceTree = "<group>"; };
+		621AA9D0240585B700BA89F5 /* Generate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generate.swift; sourceTree = "<group>"; };
+		629723D1246CA43B00AB224A /* Pods_HealthisWealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_HealthisWealth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		629997912406D66000258FD1 /* buttonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonCell.swift; sourceTree = "<group>"; };
+		62E89A5E2405DF3A0021FBB6 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		70E0A8506F8B750400DC78B8 /* Pods-TableView-TableViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView-TableViewUITests.release.xcconfig"; path = "Target Support Files/Pods-TableView-TableViewUITests/Pods-TableView-TableViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7486048B1BC7987116FFD4FB /* Pods-TableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView.debug.xcconfig"; path = "Target Support Files/Pods-TableView/Pods-TableView.debug.xcconfig"; sourceTree = "<group>"; };
+		772F0A51DAD04B5CC89AB2BC /* Pods-5x5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5x5.release.xcconfig"; path = "Target Support Files/Pods-5x5/Pods-5x5.release.xcconfig"; sourceTree = "<group>"; };
+		7C0A77E992FD980EA29F41E2 /* Pods-5x5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5x5.debug.xcconfig"; path = "Target Support Files/Pods-5x5/Pods-5x5.debug.xcconfig"; sourceTree = "<group>"; };
+		7FCF67B4273159A9CB04D315 /* Pods_HealthisWealth_HealthisWealthUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthisWealth_HealthisWealthUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B066400697482A46CFA26E /* Pods-5x5-5x5UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5x5-5x5UITests.debug.xcconfig"; path = "Target Support Files/Pods-5x5-5x5UITests/Pods-5x5-5x5UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93E090F0686D4F6E5C030424 /* Pods-TableViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewTests.debug.xcconfig"; path = "Target Support Files/Pods-TableViewTests/Pods-TableViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B627D466504BBFA8E1EAB216 /* Pods-HealthisWealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthisWealth.debug.xcconfig"; path = "Target Support Files/Pods-HealthisWealth/Pods-HealthisWealth.debug.xcconfig"; sourceTree = "<group>"; };
+		C4BB78862BA6E787E8C28B04 /* Pods-TableViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewTests.release.xcconfig"; path = "Target Support Files/Pods-TableViewTests/Pods-TableViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		EFCE80D905ACA9C6C97A0F32 /* Pods-HealthisWealthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthisWealthTests.release.xcconfig"; path = "Target Support Files/Pods-HealthisWealthTests/Pods-HealthisWealthTests.release.xcconfig"; sourceTree = "<group>"; };
+		F96E57FC5BEAF37D8D08BF5E /* Pods-TableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView.release.xcconfig"; path = "Target Support Files/Pods-TableView/Pods-TableView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		621AA99824057F9900BA89F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629723D2246CA43B00AB224A /* Pods_HealthisWealth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621AA9AE24057F9C00BA89F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539E0477695B0A218BBAEAB3 /* Pods_HealthisWealthTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621AA9B924057F9C00BA89F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A6E72361C86ADEE28D197B /* Pods_HealthisWealth_HealthisWealthUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		371522CD607CB82E611817C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				629723D1246CA43B00AB224A /* Pods_HealthisWealth.framework */,
+				3AC16545AD1794F913D677BA /* Pods_HealthisWealth.framework */,
+				7FCF67B4273159A9CB04D315 /* Pods_HealthisWealth_HealthisWealthUITests.framework */,
+				573F787E5D50E35527975AE2 /* Pods_HealthisWealthTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		621AA99224057F9900BA89F5 = {
+			isa = PBXGroup;
+			children = (
+				621AA99D24057F9900BA89F5 /* HealthisWealth */,
+				621AA9B424057F9C00BA89F5 /* HealthisWealthTests */,
+				621AA9BF24057F9C00BA89F5 /* HealthisWealthUITests */,
+				621AA99C24057F9900BA89F5 /* Products */,
+				A31AC6A8A0C7C4735D6022DA /* Pods */,
+				371522CD607CB82E611817C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		621AA99C24057F9900BA89F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				621AA99B24057F9900BA89F5 /* HealthisWealth.app */,
+				621AA9B124057F9C00BA89F5 /* HealthisWealthTests.xctest */,
+				621AA9BC24057F9C00BA89F5 /* HealthisWealthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		621AA99D24057F9900BA89F5 /* HealthisWealth */ = {
+			isa = PBXGroup;
+			children = (
+				621AA99E24057F9900BA89F5 /* AppDelegate.swift */,
+				621AA9A024057F9900BA89F5 /* SceneDelegate.swift */,
+				62E89A5E2405DF3A0021FBB6 /* Extension.swift */,
+				62B87292244B708C00DA8AE3 /* Model */,
+				62B87293244B70AF00DA8AE3 /* View */,
+				62B87294244B716500DA8AE3 /* Controller */,
+				621AA9A724057F9C00BA89F5 /* Assets.xcassets */,
+				621AA9AC24057F9C00BA89F5 /* Info.plist */,
+			);
+			path = HealthisWealth;
+			sourceTree = "<group>";
+		};
+		621AA9B424057F9C00BA89F5 /* HealthisWealthTests */ = {
+			isa = PBXGroup;
+			children = (
+				621AA9B524057F9C00BA89F5 /* HealthisWealthTests.swift */,
+				621AA9B724057F9C00BA89F5 /* Info.plist */,
+			);
+			path = HealthisWealthTests;
+			sourceTree = "<group>";
+		};
+		621AA9BF24057F9C00BA89F5 /* HealthisWealthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				621AA9C024057F9C00BA89F5 /* HealthisWealthUITests.swift */,
+				621AA9C224057F9C00BA89F5 /* Info.plist */,
+			);
+			path = HealthisWealthUITests;
+			sourceTree = "<group>";
+		};
+		62B87292244B708C00DA8AE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				621A7DE824106BDA006D8F2F /* Page.swift */,
+				621A7DEA24106C60006D8F2F /* Login.swift */,
+				621AA9D0240585B700BA89F5 /* Generate.swift */,
+				621AA9CE240584F100BA89F5 /* Generate Cell.swift */,
+				629997912406D66000258FD1 /* buttonCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62B87293244B70AF00DA8AE3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				621A7DE624106BBE006D8F2F /* Page Cell.swift */,
+				621AA9A924057F9C00BA89F5 /* LaunchScreen.storyboard */,
+				621AA9A424057F9900BA89F5 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62B87294244B716500DA8AE3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				621A7DE424106B29006D8F2F /* LoginViewController.swift */,
+				621A7DEC241071B3006D8F2F /* ProductsViewController.swift */,
+				621AA9A224057F9900BA89F5 /* GenerateViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A31AC6A8A0C7C4735D6022DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7486048B1BC7987116FFD4FB /* Pods-TableView.debug.xcconfig */,
+				F96E57FC5BEAF37D8D08BF5E /* Pods-TableView.release.xcconfig */,
+				1C0F7E8F9889C46B9F82515A /* Pods-TableView-TableViewUITests.debug.xcconfig */,
+				70E0A8506F8B750400DC78B8 /* Pods-TableView-TableViewUITests.release.xcconfig */,
+				93E090F0686D4F6E5C030424 /* Pods-TableViewTests.debug.xcconfig */,
+				C4BB78862BA6E787E8C28B04 /* Pods-TableViewTests.release.xcconfig */,
+				7C0A77E992FD980EA29F41E2 /* Pods-5x5.debug.xcconfig */,
+				772F0A51DAD04B5CC89AB2BC /* Pods-5x5.release.xcconfig */,
+				87B066400697482A46CFA26E /* Pods-5x5-5x5UITests.debug.xcconfig */,
+				4B86269A5DD92E44C0EDE25B /* Pods-5x5-5x5UITests.release.xcconfig */,
+				5A7A430FB91BE45D8D386ADA /* Pods-5x5Tests.debug.xcconfig */,
+				391D1303F8A6A5AA61205BD1 /* Pods-5x5Tests.release.xcconfig */,
+				B627D466504BBFA8E1EAB216 /* Pods-HealthisWealth.debug.xcconfig */,
+				5223673FC2A6E2D264E7AF90 /* Pods-HealthisWealth.release.xcconfig */,
+				0B0E784824FAFF46389013C3 /* Pods-HealthisWealth-HealthisWealthUITests.debug.xcconfig */,
+				3FCDAD4418500BC744AD16E7 /* Pods-HealthisWealth-HealthisWealthUITests.release.xcconfig */,
+				0C9A866168D5E41DB29C2218 /* Pods-HealthisWealthTests.debug.xcconfig */,
+				EFCE80D905ACA9C6C97A0F32 /* Pods-HealthisWealthTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		621AA99A24057F9900BA89F5 /* HealthisWealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 621AA9C524057F9C00BA89F5 /* Build configuration list for PBXNativeTarget "HealthisWealth" */;
+			buildPhases = (
+				D5485F4E05B2F7B765A5ED45 /* [CP] Check Pods Manifest.lock */,
+				621AA99724057F9900BA89F5 /* Sources */,
+				621AA99824057F9900BA89F5 /* Frameworks */,
+				621AA99924057F9900BA89F5 /* Resources */,
+				2035AE1BFB016B796268B136 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthisWealth;
+			productName = TableView;
+			productReference = 621AA99B24057F9900BA89F5 /* HealthisWealth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		621AA9B024057F9C00BA89F5 /* HealthisWealthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 621AA9C824057F9C00BA89F5 /* Build configuration list for PBXNativeTarget "HealthisWealthTests" */;
+			buildPhases = (
+				A65926F0F2201127C8BF2A90 /* [CP] Check Pods Manifest.lock */,
+				621AA9AD24057F9C00BA89F5 /* Sources */,
+				621AA9AE24057F9C00BA89F5 /* Frameworks */,
+				621AA9AF24057F9C00BA89F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				621AA9B324057F9C00BA89F5 /* PBXTargetDependency */,
+			);
+			name = HealthisWealthTests;
+			productName = TableViewTests;
+			productReference = 621AA9B124057F9C00BA89F5 /* HealthisWealthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		621AA9BB24057F9C00BA89F5 /* HealthisWealthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 621AA9CB24057F9C00BA89F5 /* Build configuration list for PBXNativeTarget "HealthisWealthUITests" */;
+			buildPhases = (
+				22A07DBD670036E99AC02EEB /* [CP] Check Pods Manifest.lock */,
+				621AA9B824057F9C00BA89F5 /* Sources */,
+				621AA9B924057F9C00BA89F5 /* Frameworks */,
+				621AA9BA24057F9C00BA89F5 /* Resources */,
+				21DD149147ADCD3AB6159877 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				621AA9BE24057F9C00BA89F5 /* PBXTargetDependency */,
+			);
+			name = HealthisWealthUITests;
+			productName = TableViewUITests;
+			productReference = 621AA9BC24057F9C00BA89F5 /* HealthisWealthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		621AA99324057F9900BA89F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Claire De Guzman";
+				TargetAttributes = {
+					621AA99A24057F9900BA89F5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					621AA9B024057F9C00BA89F5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 621AA99A24057F9900BA89F5;
+					};
+					621AA9BB24057F9C00BA89F5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 621AA99A24057F9900BA89F5;
+					};
+				};
+			};
+			buildConfigurationList = 621AA99624057F9900BA89F5 /* Build configuration list for PBXProject "HealthisWealth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 621AA99224057F9900BA89F5;
+			productRefGroup = 621AA99C24057F9900BA89F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				621AA99A24057F9900BA89F5 /* HealthisWealth */,
+				621AA9B024057F9C00BA89F5 /* HealthisWealthTests */,
+				621AA9BB24057F9C00BA89F5 /* HealthisWealthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		621AA99924057F9900BA89F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621AA9AB24057F9C00BA89F5 /* LaunchScreen.storyboard in Resources */,
+				621AA9A824057F9C00BA89F5 /* Assets.xcassets in Resources */,
+				621AA9A624057F9900BA89F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621AA9AF24057F9C00BA89F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621AA9BA24057F9C00BA89F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2035AE1BFB016B796268B136 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthisWealth/Pods-HealthisWealth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthisWealth/Pods-HealthisWealth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthisWealth/Pods-HealthisWealth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21DD149147ADCD3AB6159877 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthisWealth-HealthisWealthUITests/Pods-HealthisWealth-HealthisWealthUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthisWealth-HealthisWealthUITests/Pods-HealthisWealth-HealthisWealthUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthisWealth-HealthisWealthUITests/Pods-HealthisWealth-HealthisWealthUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22A07DBD670036E99AC02EEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthisWealth-HealthisWealthUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A65926F0F2201127C8BF2A90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthisWealthTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5485F4E05B2F7B765A5ED45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthisWealth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		621AA99724057F9900BA89F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621AA9A324057F9900BA89F5 /* GenerateViewController.swift in Sources */,
+				621AA9CF240584F100BA89F5 /* Generate Cell.swift in Sources */,
+				621AA9D1240585B700BA89F5 /* Generate.swift in Sources */,
+				62E89A5F2405DF3A0021FBB6 /* Extension.swift in Sources */,
+				621A7DE924106BDA006D8F2F /* Page.swift in Sources */,
+				621A7DE724106BBE006D8F2F /* Page Cell.swift in Sources */,
+				621A7DED241071B3006D8F2F /* ProductsViewController.swift in Sources */,
+				621A7DE524106B29006D8F2F /* LoginViewController.swift in Sources */,
+				621AA99F24057F9900BA89F5 /* AppDelegate.swift in Sources */,
+				629997922406D66000258FD1 /* buttonCell.swift in Sources */,
+				621A7DEB24106C60006D8F2F /* Login.swift in Sources */,
+				621AA9A124057F9900BA89F5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621AA9AD24057F9C00BA89F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621AA9B624057F9C00BA89F5 /* HealthisWealthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621AA9B824057F9C00BA89F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629723D3246CA4CC00AB224A /* HealthisWealthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		621AA9B324057F9C00BA89F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 621AA99A24057F9900BA89F5 /* HealthisWealth */;
+			targetProxy = 621AA9B224057F9C00BA89F5 /* PBXContainerItemProxy */;
+		};
+		621AA9BE24057F9C00BA89F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 621AA99A24057F9900BA89F5 /* HealthisWealth */;
+			targetProxy = 621AA9BD24057F9C00BA89F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		621AA9A424057F9900BA89F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				621AA9A524057F9900BA89F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		621AA9A924057F9C00BA89F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				621AA9AA24057F9C00BA89F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		621AA9C324057F9C00BA89F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		621AA9C424057F9C00BA89F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		621AA9C624057F9C00BA89F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B627D466504BBFA8E1EAB216 /* Pods-HealthisWealth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XMX5F8RR5;
+				INFOPLIST_FILE = HealthisWealth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Liveit.HealthisWealth;
+				PRODUCT_NAME = HealthisWealth;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		621AA9C724057F9C00BA89F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5223673FC2A6E2D264E7AF90 /* Pods-HealthisWealth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XMX5F8RR5;
+				INFOPLIST_FILE = HealthisWealth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Liveit.HealthisWealth;
+				PRODUCT_NAME = HealthisWealth;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		621AA9C924057F9C00BA89F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C9A866168D5E41DB29C2218 /* Pods-HealthisWealthTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XMX5F8RR5;
+				INFOPLIST_FILE = TableViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Liveit.TableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthisWealth.app/HealthisWealth";
+			};
+			name = Debug;
+		};
+		621AA9CA24057F9C00BA89F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFCE80D905ACA9C6C97A0F32 /* Pods-HealthisWealthTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XMX5F8RR5;
+				INFOPLIST_FILE = TableViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Liveit.TableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthisWealth.app/HealthisWealth";
+			};
+			name = Release;
+		};
+		621AA9CC24057F9C00BA89F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0E784824FAFF46389013C3 /* Pods-HealthisWealth-HealthisWealthUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XMX5F8RR5;
+				INFOPLIST_FILE = TableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Liveit.TableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TableView;
+			};
+			name = Debug;
+		};
+		621AA9CD24057F9C00BA89F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FCDAD4418500BC744AD16E7 /* Pods-HealthisWealth-HealthisWealthUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XMX5F8RR5;
+				INFOPLIST_FILE = TableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Liveit.TableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		621AA99624057F9900BA89F5 /* Build configuration list for PBXProject "HealthisWealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621AA9C324057F9C00BA89F5 /* Debug */,
+				621AA9C424057F9C00BA89F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		621AA9C524057F9C00BA89F5 /* Build configuration list for PBXNativeTarget "HealthisWealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621AA9C624057F9C00BA89F5 /* Debug */,
+				621AA9C724057F9C00BA89F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		621AA9C824057F9C00BA89F5 /* Build configuration list for PBXNativeTarget "HealthisWealthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621AA9C924057F9C00BA89F5 /* Debug */,
+				621AA9CA24057F9C00BA89F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		621AA9CB24057F9C00BA89F5 /* Build configuration list for PBXNativeTarget "HealthisWealthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621AA9CC24057F9C00BA89F5 /* Debug */,
+				621AA9CD24057F9C00BA89F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 621AA99324057F9900BA89F5 /* Project object */;
+}
