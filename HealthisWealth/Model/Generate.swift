@@ -9,15 +9,14 @@
 import UIKit
 
 class Generate {
-    var image: UIImage
     var category: String
     var label: String
     
     
-    init(category: String, label: String, image: UIImage){
+    init(category: String, label: String){
         self.category = category
         self.label = label
-        self.image = image
+       
         
     }
 }

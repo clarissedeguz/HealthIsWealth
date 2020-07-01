@@ -12,8 +12,7 @@ class GenerateCell : UITableViewCell {
     
     
     
-    @IBOutlet weak var generateImage: UIImageView!
-    
+ 
     @IBOutlet weak var generateCat: UILabel!
     
     @IBOutlet weak var imageName: UILabel!
@@ -21,7 +20,6 @@ class GenerateCell : UITableViewCell {
     
     
     func setupCell (foodList: Generate) {
-        generateImage.image = foodList.image
         generateCat.text = foodList.category
         imageName.text = foodList.label
         
