@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		539E0477695B0A218BBAEAB3 /* Pods_HealthisWealthTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573F787E5D50E35527975AE2 /* Pods_HealthisWealthTests.framework */; };
 		621A7DE524106B29006D8F2F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621A7DE424106B29006D8F2F /* LoginViewController.swift */; };
-		621A7DE724106BBE006D8F2F /* Page Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621A7DE624106BBE006D8F2F /* Page Cell.swift */; };
+		621A7DE724106BBE006D8F2F /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621A7DE624106BBE006D8F2F /* PageCell.swift */; };
 		621A7DE924106BDA006D8F2F /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621A7DE824106BDA006D8F2F /* Page.swift */; };
 		621A7DEB24106C60006D8F2F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621A7DEA24106C60006D8F2F /* Login.swift */; };
 		621AA99F24057F9900BA89F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621AA99E24057F9900BA89F5 /* AppDelegate.swift */; };
@@ -19,13 +18,11 @@
 		621AA9A824057F9C00BA89F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621AA9A724057F9C00BA89F5 /* Assets.xcassets */; };
 		621AA9AB24057F9C00BA89F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621AA9A924057F9C00BA89F5 /* LaunchScreen.storyboard */; };
 		621AA9B624057F9C00BA89F5 /* HealthisWealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621AA9B524057F9C00BA89F5 /* HealthisWealthTests.swift */; };
-		621AA9CF240584F100BA89F5 /* Generate Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621AA9CE240584F100BA89F5 /* Generate Cell.swift */; };
+		621AA9CF240584F100BA89F5 /* GenerateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621AA9CE240584F100BA89F5 /* GenerateCell.swift */; };
 		621AA9D1240585B700BA89F5 /* Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621AA9D0240585B700BA89F5 /* Generate.swift */; };
-		629723D2246CA43B00AB224A /* Pods_HealthisWealth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629723D1246CA43B00AB224A /* Pods_HealthisWealth.framework */; };
 		629723D3246CA4CC00AB224A /* HealthisWealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621AA9C024057F9C00BA89F5 /* HealthisWealthUITests.swift */; };
-		629997922406D66000258FD1 /* buttonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629997912406D66000258FD1 /* buttonCell.swift */; };
+		629997922406D66000258FD1 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629997912406D66000258FD1 /* ButtonCell.swift */; };
 		62E89A5F2405DF3A0021FBB6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E89A5E2405DF3A0021FBB6 /* Extension.swift */; };
-		F4A6E72361C86ADEE28D197B /* Pods_HealthisWealth_HealthisWealthUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FCF67B4273159A9CB04D315 /* Pods_HealthisWealth_HealthisWealthUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,18 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B0E784824FAFF46389013C3 /* Pods-HealthisWealth-HealthisWealthUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthisWealth-HealthisWealthUITests.debug.xcconfig"; path = "Target Support Files/Pods-HealthisWealth-HealthisWealthUITests/Pods-HealthisWealth-HealthisWealthUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		0C9A866168D5E41DB29C2218 /* Pods-HealthisWealthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthisWealthTests.debug.xcconfig"; path = "Target Support Files/Pods-HealthisWealthTests/Pods-HealthisWealthTests.debug.xcconfig"; sourceTree = "<group>"; };
-		1C0F7E8F9889C46B9F82515A /* Pods-TableView-TableViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView-TableViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-TableView-TableViewUITests/Pods-TableView-TableViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		391D1303F8A6A5AA61205BD1 /* Pods-5x5Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5x5Tests.release.xcconfig"; path = "Target Support Files/Pods-5x5Tests/Pods-5x5Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3AC16545AD1794F913D677BA /* Pods_HealthisWealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthisWealth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FCDAD4418500BC744AD16E7 /* Pods-HealthisWealth-HealthisWealthUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthisWealth-HealthisWealthUITests.release.xcconfig"; path = "Target Support Files/Pods-HealthisWealth-HealthisWealthUITests/Pods-HealthisWealth-HealthisWealthUITests.release.xcconfig"; sourceTree = "<group>"; };
-		4B86269A5DD92E44C0EDE25B /* Pods-5x5-5x5UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5x5-5x5UITests.release.xcconfig"; path = "Target Support Files/Pods-5x5-5x5UITests/Pods-5x5-5x5UITests.release.xcconfig"; sourceTree = "<group>"; };
-		5223673FC2A6E2D264E7AF90 /* Pods-HealthisWealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthisWealth.release.xcconfig"; path = "Target Support Files/Pods-HealthisWealth/Pods-HealthisWealth.release.xcconfig"; sourceTree = "<group>"; };
-		573F787E5D50E35527975AE2 /* Pods_HealthisWealthTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthisWealthTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A7A430FB91BE45D8D386ADA /* Pods-5x5Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5x5Tests.debug.xcconfig"; path = "Target Support Files/Pods-5x5Tests/Pods-5x5Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		621A7DE424106B29006D8F2F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		621A7DE624106BBE006D8F2F /* Page Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Page Cell.swift"; sourceTree = "<group>"; };
+		621A7DE624106BBE006D8F2F /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 		621A7DE824106BDA006D8F2F /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		621A7DEA24106C60006D8F2F /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		621AA99B24057F9900BA89F5 /* HealthisWealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthisWealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,22 +61,11 @@
 		621AA9BC24057F9C00BA89F5 /* HealthisWealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthisWealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		621AA9C024057F9C00BA89F5 /* HealthisWealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthisWealthUITests.swift; sourceTree = "<group>"; };
 		621AA9C224057F9C00BA89F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		621AA9CE240584F100BA89F5 /* Generate Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Generate Cell.swift"; sourceTree = "<group>"; };
+		621AA9CE240584F100BA89F5 /* GenerateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateCell.swift; sourceTree = "<group>"; };
 		621AA9D0240585B700BA89F5 /* Generate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generate.swift; sourceTree = "<group>"; };
-		629723D1246CA43B00AB224A /* Pods_HealthisWealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_HealthisWealth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		629997912406D66000258FD1 /* buttonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonCell.swift; sourceTree = "<group>"; };
+		629997912406D66000258FD1 /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		62DFFF6824B3EE3F005E0723 /* HealthisWealth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthisWealth.entitlements; sourceTree = "<group>"; };
 		62E89A5E2405DF3A0021FBB6 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
-		70E0A8506F8B750400DC78B8 /* Pods-TableView-TableViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView-TableViewUITests.release.xcconfig"; path = "Target Support Files/Pods-TableView-TableViewUITests/Pods-TableView-TableViewUITests.release.xcconfig"; sourceTree = "<group>"; };
-		7486048B1BC7987116FFD4FB /* Pods-TableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView.debug.xcconfig"; path = "Target Support Files/Pods-TableView/Pods-TableView.debug.xcconfig"; sourceTree = "<group>"; };
-		772F0A51DAD04B5CC89AB2BC /* Pods-5x5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5x5.release.xcconfig"; path = "Target Support Files/Pods-5x5/Pods-5x5.release.xcconfig"; sourceTree = "<group>"; };
-		7C0A77E992FD980EA29F41E2 /* Pods-5x5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5x5.debug.xcconfig"; path = "Target Support Files/Pods-5x5/Pods-5x5.debug.xcconfig"; sourceTree = "<group>"; };
-		7FCF67B4273159A9CB04D315 /* Pods_HealthisWealth_HealthisWealthUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthisWealth_HealthisWealthUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		87B066400697482A46CFA26E /* Pods-5x5-5x5UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5x5-5x5UITests.debug.xcconfig"; path = "Target Support Files/Pods-5x5-5x5UITests/Pods-5x5-5x5UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		93E090F0686D4F6E5C030424 /* Pods-TableViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewTests.debug.xcconfig"; path = "Target Support Files/Pods-TableViewTests/Pods-TableViewTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B627D466504BBFA8E1EAB216 /* Pods-HealthisWealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthisWealth.debug.xcconfig"; path = "Target Support Files/Pods-HealthisWealth/Pods-HealthisWealth.debug.xcconfig"; sourceTree = "<group>"; };
-		C4BB78862BA6E787E8C28B04 /* Pods-TableViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewTests.release.xcconfig"; path = "Target Support Files/Pods-TableViewTests/Pods-TableViewTests.release.xcconfig"; sourceTree = "<group>"; };
-		EFCE80D905ACA9C6C97A0F32 /* Pods-HealthisWealthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthisWealthTests.release.xcconfig"; path = "Target Support Files/Pods-HealthisWealthTests/Pods-HealthisWealthTests.release.xcconfig"; sourceTree = "<group>"; };
-		F96E57FC5BEAF37D8D08BF5E /* Pods-TableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView.release.xcconfig"; path = "Target Support Files/Pods-TableView/Pods-TableView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +73,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				629723D2246CA43B00AB224A /* Pods_HealthisWealth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +80,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				539E0477695B0A218BBAEAB3 /* Pods_HealthisWealthTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,24 +87,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4A6E72361C86ADEE28D197B /* Pods_HealthisWealth_HealthisWealthUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		371522CD607CB82E611817C1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				629723D1246CA43B00AB224A /* Pods_HealthisWealth.framework */,
-				3AC16545AD1794F913D677BA /* Pods_HealthisWealth.framework */,
-				7FCF67B4273159A9CB04D315 /* Pods_HealthisWealth_HealthisWealthUITests.framework */,
-				573F787E5D50E35527975AE2 /* Pods_HealthisWealthTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		621AA99224057F9900BA89F5 = {
 			isa = PBXGroup;
 			children = (
@@ -138,8 +100,6 @@
 				621AA9B424057F9C00BA89F5 /* HealthisWealthTests */,
 				621AA9BF24057F9C00BA89F5 /* HealthisWealthUITests */,
 				621AA99C24057F9900BA89F5 /* Products */,
-				A31AC6A8A0C7C4735D6022DA /* Pods */,
-				371522CD607CB82E611817C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,6 +116,7 @@
 		621AA99D24057F9900BA89F5 /* HealthisWealth */ = {
 			isa = PBXGroup;
 			children = (
+				62DFFF6824B3EE3F005E0723 /* HealthisWealth.entitlements */,
 				621AA99E24057F9900BA89F5 /* AppDelegate.swift */,
 				621AA9A024057F9900BA89F5 /* SceneDelegate.swift */,
 				62E89A5E2405DF3A0021FBB6 /* Extension.swift */,
@@ -190,10 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				621A7DE824106BDA006D8F2F /* Page.swift */,
-				621A7DEA24106C60006D8F2F /* Login.swift */,
 				621AA9D0240585B700BA89F5 /* Generate.swift */,
-				621AA9CE240584F100BA89F5 /* Generate Cell.swift */,
-				629997912406D66000258FD1 /* buttonCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -201,7 +159,10 @@
 		62B87293244B70AF00DA8AE3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				621A7DE624106BBE006D8F2F /* Page Cell.swift */,
+				621A7DEA24106C60006D8F2F /* Login.swift */,
+				629997912406D66000258FD1 /* ButtonCell.swift */,
+				621AA9CE240584F100BA89F5 /* GenerateCell.swift */,
+				621A7DE624106BBE006D8F2F /* PageCell.swift */,
 				621AA9A924057F9C00BA89F5 /* LaunchScreen.storyboard */,
 				621AA9A424057F9900BA89F5 /* Main.storyboard */,
 			);
@@ -217,31 +178,6 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		A31AC6A8A0C7C4735D6022DA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7486048B1BC7987116FFD4FB /* Pods-TableView.debug.xcconfig */,
-				F96E57FC5BEAF37D8D08BF5E /* Pods-TableView.release.xcconfig */,
-				1C0F7E8F9889C46B9F82515A /* Pods-TableView-TableViewUITests.debug.xcconfig */,
-				70E0A8506F8B750400DC78B8 /* Pods-TableView-TableViewUITests.release.xcconfig */,
-				93E090F0686D4F6E5C030424 /* Pods-TableViewTests.debug.xcconfig */,
-				C4BB78862BA6E787E8C28B04 /* Pods-TableViewTests.release.xcconfig */,
-				7C0A77E992FD980EA29F41E2 /* Pods-5x5.debug.xcconfig */,
-				772F0A51DAD04B5CC89AB2BC /* Pods-5x5.release.xcconfig */,
-				87B066400697482A46CFA26E /* Pods-5x5-5x5UITests.debug.xcconfig */,
-				4B86269A5DD92E44C0EDE25B /* Pods-5x5-5x5UITests.release.xcconfig */,
-				5A7A430FB91BE45D8D386ADA /* Pods-5x5Tests.debug.xcconfig */,
-				391D1303F8A6A5AA61205BD1 /* Pods-5x5Tests.release.xcconfig */,
-				B627D466504BBFA8E1EAB216 /* Pods-HealthisWealth.debug.xcconfig */,
-				5223673FC2A6E2D264E7AF90 /* Pods-HealthisWealth.release.xcconfig */,
-				0B0E784824FAFF46389013C3 /* Pods-HealthisWealth-HealthisWealthUITests.debug.xcconfig */,
-				3FCDAD4418500BC744AD16E7 /* Pods-HealthisWealth-HealthisWealthUITests.release.xcconfig */,
-				0C9A866168D5E41DB29C2218 /* Pods-HealthisWealthTests.debug.xcconfig */,
-				EFCE80D905ACA9C6C97A0F32 /* Pods-HealthisWealthTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -249,11 +185,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 621AA9C524057F9C00BA89F5 /* Build configuration list for PBXNativeTarget "HealthisWealth" */;
 			buildPhases = (
-				D5485F4E05B2F7B765A5ED45 /* [CP] Check Pods Manifest.lock */,
 				621AA99724057F9900BA89F5 /* Sources */,
 				621AA99824057F9900BA89F5 /* Frameworks */,
 				621AA99924057F9900BA89F5 /* Resources */,
-				2035AE1BFB016B796268B136 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -268,7 +202,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 621AA9C824057F9C00BA89F5 /* Build configuration list for PBXNativeTarget "HealthisWealthTests" */;
 			buildPhases = (
-				A65926F0F2201127C8BF2A90 /* [CP] Check Pods Manifest.lock */,
 				621AA9AD24057F9C00BA89F5 /* Sources */,
 				621AA9AE24057F9C00BA89F5 /* Frameworks */,
 				621AA9AF24057F9C00BA89F5 /* Resources */,
@@ -287,11 +220,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 621AA9CB24057F9C00BA89F5 /* Build configuration list for PBXNativeTarget "HealthisWealthUITests" */;
 			buildPhases = (
-				22A07DBD670036E99AC02EEB /* [CP] Check Pods Manifest.lock */,
 				621AA9B824057F9C00BA89F5 /* Sources */,
 				621AA9B924057F9C00BA89F5 /* Frameworks */,
 				621AA9BA24057F9C00BA89F5 /* Resources */,
-				21DD149147ADCD3AB6159877 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -373,123 +304,20 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		2035AE1BFB016B796268B136 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HealthisWealth/Pods-HealthisWealth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HealthisWealth/Pods-HealthisWealth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthisWealth/Pods-HealthisWealth-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		21DD149147ADCD3AB6159877 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HealthisWealth-HealthisWealthUITests/Pods-HealthisWealth-HealthisWealthUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HealthisWealth-HealthisWealthUITests/Pods-HealthisWealth-HealthisWealthUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthisWealth-HealthisWealthUITests/Pods-HealthisWealth-HealthisWealthUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		22A07DBD670036E99AC02EEB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HealthisWealth-HealthisWealthUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A65926F0F2201127C8BF2A90 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HealthisWealthTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D5485F4E05B2F7B765A5ED45 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HealthisWealth-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		621AA99724057F9900BA89F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				621AA9A324057F9900BA89F5 /* GenerateViewController.swift in Sources */,
-				621AA9CF240584F100BA89F5 /* Generate Cell.swift in Sources */,
+				621AA9CF240584F100BA89F5 /* GenerateCell.swift in Sources */,
 				621AA9D1240585B700BA89F5 /* Generate.swift in Sources */,
 				62E89A5F2405DF3A0021FBB6 /* Extension.swift in Sources */,
 				621A7DE924106BDA006D8F2F /* Page.swift in Sources */,
-				621A7DE724106BBE006D8F2F /* Page Cell.swift in Sources */,
+				621A7DE724106BBE006D8F2F /* PageCell.swift in Sources */,
 				621A7DE524106B29006D8F2F /* LoginViewController.swift in Sources */,
 				621AA99F24057F9900BA89F5 /* AppDelegate.swift in Sources */,
-				629997922406D66000258FD1 /* buttonCell.swift in Sources */,
+				629997922406D66000258FD1 /* ButtonCell.swift in Sources */,
 				621A7DEB24106C60006D8F2F /* Login.swift in Sources */,
 				621AA9A124057F9900BA89F5 /* SceneDelegate.swift in Sources */,
 			);
@@ -662,10 +490,11 @@
 		};
 		621AA9C624057F9C00BA89F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B627D466504BBFA8E1EAB216 /* Pods-HealthisWealth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HealthisWealth/HealthisWealth.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = 6XMX5F8RR5;
 				INFOPLIST_FILE = HealthisWealth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -674,6 +503,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Liveit.HealthisWealth;
 				PRODUCT_NAME = HealthisWealth;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -681,10 +511,11 @@
 		};
 		621AA9C724057F9C00BA89F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5223673FC2A6E2D264E7AF90 /* Pods-HealthisWealth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HealthisWealth/HealthisWealth.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = 6XMX5F8RR5;
 				INFOPLIST_FILE = HealthisWealth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -693,6 +524,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Liveit.HealthisWealth;
 				PRODUCT_NAME = HealthisWealth;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -700,7 +532,6 @@
 		};
 		621AA9C924057F9C00BA89F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C9A866168D5E41DB29C2218 /* Pods-HealthisWealthTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -723,7 +554,6 @@
 		};
 		621AA9CA24057F9C00BA89F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFCE80D905ACA9C6C97A0F32 /* Pods-HealthisWealthTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -746,7 +576,6 @@
 		};
 		621AA9CC24057F9C00BA89F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B0E784824FAFF46389013C3 /* Pods-HealthisWealth-HealthisWealthUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -767,7 +596,6 @@
 		};
 		621AA9CD24057F9C00BA89F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FCDAD4418500BC744AD16E7 /* Pods-HealthisWealth-HealthisWealthUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,6 +1,0 @@
-framework module Pods_HealthisWealth_HealthisWealthUITests {
-  umbrella header "Pods-HealthisWealth-HealthisWealthUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
